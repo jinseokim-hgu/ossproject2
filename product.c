@@ -228,10 +228,6 @@ void w_record_op(){
     }
 }    //레코드 최적화 시키기
 void w_apply_sale(W_Record *p,int sa){
-    if(w_getsale>0){
-        p->price=p->price/(1-0.01*p->sale);
-    }
-    p->price=p->price*(1-0.01*sa);
     p->sale=sa;
 }   //할인률 적용하기
 char* w_getname(W_Record* p){

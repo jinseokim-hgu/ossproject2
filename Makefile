@@ -1,4 +1,4 @@
-C = gcc
+CC = gcc
 CFLAGS = -g -Wall
 TARGET = main
 OBJECTS =main1.c product.o
