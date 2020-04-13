@@ -75,6 +75,9 @@ void w_delete(W_Record* p){
     for(i=0; i<MAX_PRODUCTS; i++)
         if(product[i]==p) {
             index=i;
+#ifdef DEBUG
+	printf("[DEBUG] %s's index is %d\n",w_getname(product[i]),i);
+#endif
             break;
         }
     free(p);
@@ -196,31 +199,40 @@ void w_stock_update(W_Record *p, int s){
         p->stock=s;
 }   //재고 업데이트하기
 void w_order_by_name(){
-    W_Record*temp=(W_Record*)malloc(sizeof(W_Record));
+    W_Record temp;
     int i,j;
     for(i=0; i<MAX_PRODUCTS; i++){
         if(product[i]!=NULL){
         for(j=i+1; j<MAX_PRODUCTS; j++){
             if((product[j]!=NULL)&&(strcmp(product[i]->name,product[j]->name)>0)){
-                *temp=*product[i];
+                temp=*product[i];
                 *product[i]=*product[j];
-                *product[j]=*temp;
+                *product[j]=temp;
+#ifdef DEBUG
+	printf("[DEBUG] index %d and %d are changed!\n",i,j);
+#endif
             }
         }
     }
-    free(temp);
+    
 }
 } //이름별로 정리하기
 void w_record_op(){
     int i,j;
-    for(i=0; i<MAX_PRODUCTS; i++){
+    for(i=0; i<_count; i++){
         if(product[i]==NULL){
+#ifdef DEBUG
+	printf("[DEBUG] Empty space is %d\n",i);
+#endif
             for(j=i+1; j<MAX_PRODUCTS; j++){
                 if(product[j]!=NULL){
                     product[i]=(W_Record*)malloc(sizeof(W_Record));
                     *product[i]=*product[j];
                     w_delete(product[j]);
                     _count++;
+#ifdef DEBUG
+	printf("[DEBUG] %d's record moved to %d\n",j,i);
+#endif
                     break;
                 }
             }

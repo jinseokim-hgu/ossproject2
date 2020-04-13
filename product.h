@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include <string.h>
 
-#define MAX_PRODUCTS 5      // 저장할 수 있는 레코드 최대 갯수
+#define MAX_PRODUCTS 20      // 저장할 수 있는 레코드 최대 갯수
 
 // 회원 정보 레코드의 데이터 타입을 정의함
 typedef struct st_watch{

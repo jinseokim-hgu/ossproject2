@@ -184,16 +184,21 @@ else {
         W_Record* p = records[i];
 
 
-	printf("%d. Brand:%-10s Name:%-10s Size:%-8s Gender:%-8s Price($):%-8.f SalePrice($):%-8.f Stock:%-8d sale:%d Percent\n",i+1, p->brname, p->name, p->size, p->gender, p->price,p->price*(1-(float)p->sale/100),p->stock,p->sale);   
+	printf("%d. Brand:%-10s Name:%-12s Size:%-8s Gender:%-8s Price($):%-8.f SalePrice($):%-8.f Stock:%-8d sale:%d Percent\n",i+1, p->brname, p->name, p->size, p->gender, p->price,p->price*(1-(float)p->sale/100),p->stock,p->sale);   
  }
     }
     void showall_record(){
         char fm[20]; int ch;
         printf("Enter a file you want to recall->");
         scanf("%s",fm);
+	while(1){
         printf("1.Erase all and Recreate\n");
         printf("2.Just add > ");
-        scanf("%d",&ch);        
+        scanf("%d",&ch);
+	if(ch!=1&&ch!=2)
+	printf("please Enter 1 or 2\n");
+	else break;
+	}        
         if(w_recall_file(fm,ch))
         printf("Records are recalled in %s!\n",fm);
         else printf("There is no file!\n");
@@ -211,7 +216,7 @@ else {
         for(i=0; i<c; i++){
             W_Record* p = record[i];
        
-	printf("%d. Brand:%-10s Name:%-10s Size:%-8s Gender:%-8s Price($):%-8.f SalePrice($):%-8.f Stock:%-8d sale:%d Percent\n",i+1, p->brname, p->name, p->size, p->gender, p->price,p->price*(1-(float)p->sale/100),p->stock,p->sale);   
+	printf("%d. Brand:%-10s Name:%-12s Size:%-8s Gender:%-8s Price($):%-8.f SalePrice($):%-8.f Stock:%-8d sale:%d Percent\n",i+1, p->brname, p->name, p->size, p->gender, p->price,p->price*(1-(float)p->sale/100),p->stock,p->sale);   
 
  }
     }
@@ -237,7 +242,7 @@ else {
         for(i=0; i<c; i++){
             W_Record* p = record[i];
     
-	printf("%d. Brand:%-10s Name:%-10s Size:%-8s Gender:%-8s Price($):%-8.f SalePrice($):%-8.f Stock:%-8d sale:%d Percent\n",i+1, p->brname, p->name, p->size, p->gender, p->price,p->price*(1-(float)p->sale/100),p->stock,p->sale);   
+	printf("%d. Brand:%-10s Name:%-12s Size:%-8s Gender:%-8s Price($):%-8.f SalePrice($):%-8.f Stock:%-8d sale:%d Percent\n",i+1, p->brname, p->name, p->size, p->gender, p->price,p->price*(1-(float)p->sale/100),p->stock,p->sale);   
 
  }
     }
@@ -269,7 +274,7 @@ w_stock_update(records,st);
     }
     void discount(){
         char name[20]; int sale;
-        int per;
+        float pr;
         printf("Enter a name ->");
     scanf("%s",name);
 W_Record* records=w_search_by_name(name);
@@ -278,10 +283,12 @@ if(records==NULL){
     return;
     }
     else {
-        per=w_getsale(records);
-        printf("%s's price is %.f\n",name,w_getprice(records));
-        if(per!=0){
-            printf("%d Percent is applyed\n",per);
+        sale=w_getsale(records);
+	pr=w_getprice(records);
+        printf("%s's price is %.f\n",name,pr);
+        if(sale!=0){
+            printf("%d Percent is applyed\n",sale);
+	    printf("SalePrice is %.f\n",pr*(1-(float)sale/100));
         }
         printf("How many percent do you apply?->");
         scanf("%d",&sale);
