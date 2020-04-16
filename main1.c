@@ -221,15 +221,11 @@ else {
  }
     }
     void mflist_record(){
-        char mf[20]; int c,i;
+        char mf[10]; int c,i;
         printf("Man or Woman?->");
         scanf("%s",mf);
-        if((strcmp(mf,"Man")==0)||(strcmp(mf,"Woman")==0)){
             
-        }else{
-            printf("Please Enter Man or Woman!\n");
-            return ;
-        }
+        
         W_Record *record[MAX_PRODUCTS];
         c=w_get_all_gender(record,mf);
         if(c==0){
@@ -238,14 +234,14 @@ else {
             else{ printf("No Woman's data\n");}
             return;
         }
-        else{
+        
         for(i=0; i<c; i++){
             W_Record* p = record[i];
     
 	printf("%d. Brand:%-10s Name:%-12s Size:%-8s Gender:%-8s Price($):%-8.f SalePrice($):%-8.f Stock:%-8d sale:%d Percent\n",i+1, p->brname, p->name, p->size, p->gender, p->price,p->price*(1-(float)p->sale/100),p->stock,p->sale);   
 
  }
-    }
+    
     }
     void stupdate_record(){
         char name[20];

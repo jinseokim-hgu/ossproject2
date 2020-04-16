@@ -1,0 +1,5 @@
+Name:skymaster  Brand:citizen    Size:40mm     Gender:Man      Price($):400      Stock:30       sale:0 Percent
+Name:hudson     Brand:maen       Size:39mm     Gender:Man      Price($):800      Stock:40       sale:0 Percent
+Name:moonphase  Brand:citizen    Size:42mm     Gender:Man      Price($):280      Stock:40       sale:0 Percent
+Name:constilition Brand:omega      Size:34mm     Gender:Woman    Price($):3000     Stock:20       sale:0 Percent
+Name:guantin    Brand:guardian   Size:40mm     Gender:Man      Price($):80       Stock:120      sale:0 Percent
