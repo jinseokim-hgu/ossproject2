@@ -130,11 +130,12 @@ return c;
 }
 int w_get_all_gender(W_Record* a[], char *g) {
     int i, c=0;
+
     for(i=0; i<MAX_PRODUCTS; i++){
         if(product[i]){
             if(strcmp(product[i]->gender,g)==0){
             a[c]=product[i];
-}            c++;
+            c++;}
 }
 }
 #ifdef DEBUG

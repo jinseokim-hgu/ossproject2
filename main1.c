@@ -224,7 +224,12 @@ else {
         char mf[10]; int c,i;
         printf("Man or Woman?->");
         scanf("%s",mf);
+        if((strcmp(mf,"Man")==0)||(strcmp(mf,"Woman")==0)){
             
+        }else{
+            printf("Please Enter Man or Woman!\n");
+            return ;
+        }   
         
         W_Record *record[MAX_PRODUCTS];
         c=w_get_all_gender(record,mf);
