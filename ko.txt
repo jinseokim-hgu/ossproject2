@@ -1,2 +1,0 @@
-Name:Skymaster  Brand:citizen    Size:40mm     Gender:Man      Price($):300      Stock:20       sale:30 Percent
-Name:moonphase  Brand:citizen    Size:42mm     Gender:Man      Price($):280      Stock:40       sale:0 Percent
