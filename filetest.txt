@@ -1,0 +1,71 @@
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 10
+
+Enter a file you want to recall->watchlist.txt
+1.Erase all and Recreate
+2.Just add > 1
+Records are recalled in watchlist.txt!
+
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 8
+
+All products's records.
+1. Brand:citizen    Name:AT2140-55    Size:42mm     Gender:Man      Price($):400      SalePrice($):400      Stock:30       sale:0 Percent
+2. Brand:citizen    Name:PMD56-2951   Size:38mm     Gender:Man      Price($):500      SalePrice($):500      Stock:45       sale:0 Percent
+3. Brand:citizen    Name:AO9044-51    Size:41mm     Gender:Man      Price($):150      SalePrice($):150      Stock:20       sale:0 Percent
+4. Brand:citizen    Name:BL8140-80    Size:44mm     Gender:Man      Price($):450      SalePrice($):450      Stock:32       sale:0 Percent
+5. Brand:citizen    Name:AT8154-82    Size:42mm     Gender:Man      Price($):700      SalePrice($):700      Stock:22       sale:0 Percent
+6. Brand:citizen    Name:IW2993-83    Size:36mm     Gender:Woman    Price($):120      SalePrice($):120      Stock:30       sale:0 Percent
+7. Brand:citizen    Name:ATTESA       Size:40mm     Gender:Man      Price($):800      SalePrice($):800      Stock:10       sale:0 Percent
+8. Brand:citizen    Name:EQ1232-84    Size:34mm     Gender:Woman    Price($):280      SalePrice($):280      Stock:30       sale:0 Percent
+9. Brand:citizen    Name:BN0191-80    Size:42mm     Gender:Man      Price($):300      SalePrice($):300      Stock:40       sale:0 Percent
+10. Brand:citizen    Name:AP1011-58    Size:39mm     Gender:Man      Price($):600      SalePrice($):600      Stock:30       sale:0 Percent
+11. Brand:tissot     Name:PR100        Size:39mm     Gender:Man      Price($):350      SalePrice($):350      Stock:30       sale:0 Percent
+12. Brand:tissot     Name:PRC200       Size:40mm     Gender:Man      Price($):350      SalePrice($):350      Stock:10       sale:0 Percent
+13. Brand:tissot     Name:LELOCLE      Size:40mm     Gender:Man      Price($):600      SalePrice($):600      Stock:30       sale:0 Percent
+14. Brand:tissot     Name:SQUARE       Size:32mm     Gender:Woman    Price($):250      SalePrice($):250      Stock:40       sale:0 Percent
+15. Brand:tissot     Name:seastar      Size:42mm     Gender:Man      Price($):600      SalePrice($):600      Stock:40       sale:0 Percent
+16. Brand:tissot     Name:TRADITION    Size:38mm     Gender:Man      Price($):280      SalePrice($):280      Stock:40       sale:0 Percent
+17. Brand:tissot     Name:T-SPORT      Size:42mm     Gender:Man      Price($):400      SalePrice($):400      Stock:20       sale:0 Percent
+18. Brand:tissot     Name:ILICIUM      Size:42mm     Gender:Man      Price($):890      SalePrice($):890      Stock:40       sale:0 Percent
+19. Brand:tissot     Name:VISODATE     Size:40mm     Gender:Man      Price($):400      SalePrice($):400      Stock:20       sale:0 Percent
+20. Brand:tissot     Name:CLASSIC      Size:38mm     Gender:Man      Price($):200      SalePrice($):200      Stock:40       sale:0 Percent
+21. Brand:tissot     Name:ZENTE        Size:41mm     Gender:Man      Price($):190      SalePrice($):190      Stock:40       sale:0 Percent
+22. Brand:seiko      Name:SRPD123      Size:38mm     Gender:Man      Price($):900      SalePrice($):900      Stock:30       sale:0 Percent
+23. Brand:seiko      Name:SRPD512      Size:45mm     Gender:Man      Price($):910      SalePrice($):910      Stock:10       sale:0 Percent
+24. Brand:seiko      Name:SKX013       Size:42mm     Gender:Man      Price($):300      SalePrice($):300      Stock:30       sale:0 Percent
+25. Brand:seiko      Name:SNAF07       Size:34mm     Gender:Woman    Price($):400      SalePrice($):400      Stock:20       sale:0 Percent
+26. Brand:seiko      Name:SARP321      Size:36mm     Gender:Woman    Price($):400      SalePrice($):400      Stock:20       sale:0 Percent
+27. Brand:seiko      Name:SBDC033      Size:41mm     Gender:Man      Price($):500      SalePrice($):500      Stock:20       sale:0 Percent
+28. Brand:seiko      Name:SRX011       Size:42mm     Gender:Man      Price($):800      SalePrice($):800      Stock:40       sale:0 Percent
+29. Brand:seiko      Name:SGG300       Size:38mm     Gender:Man      Price($):100      SalePrice($):100      Stock:5        sale:0 Percent
+30. Brand:seiko      Name:SES154       Size:34mm     Gender:Woman    Price($):200      SalePrice($):200      Stock:30       sale:0 Percent
+31. Brand:casio      Name:GA-400       Size:44mm     Gender:Man      Price($):140      SalePrice($):140      Stock:50       sale:0 Percent
+32. Brand:casio      Name:MQ24         Size:30mm     Gender:Woman    Price($):15       SalePrice($):15       Stock:120      sale:0 Percent
+33. Brand:casio      Name:LTP200       Size:34mm     Gender:Woman    Price($):16       SalePrice($):16       Stock:45       sale:0 Percent
+34. Brand:casio      Name:DW-3002      Size:44mm     Gender:Man      Price($):70       SalePrice($):70       Stock:80       sale:0 Percent
+35. Brand:casio      Name:W-800        Size:40mm     Gender:Man      Price($):14       SalePrice($):14       Stock:45       sale:0 Percent
+36. Brand:casio      Name:MQ-59        Size:34mm     Gender:Woman    Price($):20       SalePrice($):20       Stock:400      sale:0 Percent
+37. Brand:casio      Name:GST-B20      Size:43mm     Gender:Man      Price($):260      SalePrice($):260      Stock:40       sale:0 Percent
+38. Brand:casio      Name:AQ-230       Size:36mm     Gender:Woman    Price($):40       SalePrice($):40       Stock:30       sale:0 Percent
+39. Brand:casio      Name:AQ-203A      Size:28mm     Gender:Woman    Price($):35       SalePrice($):35       Stock:50       sale:0 Percent
+40. Brand:ck         Name:K2G271       Size:40mm     Gender:Man      Price($):400      SalePrice($):400      Stock:25       sale:0 Percent
+41. Brand:ck         Name:K8M2112      Size:44mm     Gender:Man      Price($):80       SalePrice($):80       Stock:30       sale:0 Percent
+42. Brand:ck         Name:K2G2314      Size:35mm     Gender:Woman    Price($):80       SalePrice($):80       Stock:30       sale:0 Percent
+43. Brand:ck         Name:K4D321       Size:40mm     Gender:Man      Price($):75       SalePrice($):75       Stock:60       sale:0 Percent
+44. Brand:omega      Name:DEVIL        Size:40mm     Gender:Man      Price($):4000     SalePrice($):4000     Stock:20       sale:0 Percent
+45. Brand:omega      Name:SEAMASTER    Size:42mm     Gender:Man      Price($):7000     SalePrice($):7000     Stock:30       sale:0 Percent
+46. Brand:omega      Name:AQUATERA     Size:40mm     Gender:Man      Price($):5000     SalePrice($):5000     Stock:30       sale:0 Percent
+47. Brand:iwc        Name:DAVINCH      Size:36mm     Gender:Woman    Price($):70000    SalePrice($):70000    Stock:2        sale:0 Percent
+48. Brand:iwc        Name:PORTOGIS     Size:40mm     Gender:Man      Price($):6000     SalePrice($):6000     Stock:10       sale:0 Percent
+49. Brand:iwc        Name:MARK18       Size:38mm     Gender:Man      Price($):5200     SalePrice($):5200     Stock:12       sale:0 Percent
+50. Brand:rolex      Name:SUBMARINER   Size:40mm     Gender:Man      Price($):11000    SalePrice($):11000    Stock:20       sale:0 Percent
+
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 9
+
+Enter a file you want to save->watchlist2.txt
+Records are stored in watchlist2.txt!
+
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 0
