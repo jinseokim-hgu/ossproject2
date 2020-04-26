@@ -1,0 +1,51 @@
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 1
+
+Enter a new product's info.
+Name?:MBM3200
+Brand Name?:MARCJACOBS
+Size?:20
+Gender(Man or Woman)?:Woman
+Price($)?:60
+Stock?:10
+
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 8
+
+All products's records.
+1. Brand:MARCJACOBS Name:MBM3200      Size:20       Gender:Woman    Price($):60       SalePrice($):60       Stock:10       sale:0 Percent
+
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 2
+
+Enter a name ->MBM3200
+
+Watch's info
+Name: MBM3200
+Brand: MARCJACOBS
+Size: 20
+Gender: Woman
+Price: 60$
+SalePrice: 60$
+Stock: 10
+Sale: 0 Percent
+
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 3
+
+Enter a name ->MBM3200
+Update MBM3200's info
+Brand Name?:MARCJACOBS
+Size?:20
+Gender(Man or Woman)?:Woman
+Price($)?:50
+Stock?:20
+MBM3200's info is updated!
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 8
+
+All products's records.
+1. Brand:MARCJACOBS Name:MBM3200      Size:20       Gender:Woman    Price($):50       SalePrice($):50       Stock:20       sale:0 Percent
+
+Menu : 1.Create 2.Read 3.Update 4.StockUpdate 5.Delete 6.List(Brand) 7.List(Gender) 8.List(all)
+       9.SaveFile 10.RecallFile 11.OrderByName 12.Record Optimization 13.ApplyDiscount 0.Quit > 0
