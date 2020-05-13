@@ -2,6 +2,7 @@
 #include "product.h"
 #include <stdlib.h>
 #include <string.h>
+
     void create_record();
     void read_record();
     void update_record();
@@ -15,6 +16,7 @@
     void orderbyname();
     void recordopt();
     void discount();
+
 int main(){
 int menu;
     while(1){
